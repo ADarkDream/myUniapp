@@ -6,22 +6,22 @@
 
 ## 软件架构
 
-    [待完善]
+【待完善】
 
 ## 已安装插件(待修正、补充)
 
-eslint
-eslint-plugin-vue
-@vue/eslint-config-prettier
-@vue/eslint-config-typescript
-@rushstack/eslint-patch
-prettier
-@vue/tsconfig
-@types/wechat-miniprogram
-@uni-helper/uni-app-types
-sass
-pinia
-pinia-plugin-persistedstate
+    eslint
+    eslint-plugin-vue
+    @vue/eslint-config-prettier
+    @vue/eslint-config-typescript
+    @rushstack/eslint-patch
+    prettier
+    @vue/tsconfig
+    @types/wechat-miniprogram
+    @uni-helper/uni-app-types
+    sass
+    pinia
+    pinia-plugin-persistedstate
 
 ## 使用说明
 
