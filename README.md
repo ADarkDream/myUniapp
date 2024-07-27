@@ -1,39 +1,32 @@
-# myUniapp
+# myUniapp模板
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## 介绍
 
-#### 软件架构
-软件架构说明
+本项目为自用unipp(vue3+vite+ts)模板，基于[黑马程序员的项目](https://gitee.com/Megasu/uniapp-shop-vue3-ts/)修改，已配置如下：
 
+## 软件架构
 
-#### 安装教程
+    [待完善]
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 已安装插件(待修正、补充)
 
-#### 使用说明
+eslint
+eslint-plugin-vue
+@vue/eslint-config-prettier
+@vue/eslint-config-typescript
+@rushstack/eslint-patch
+prettier
+@vue/tsconfig
+@types/wechat-miniprogram
+@uni-helper/uni-app-types
+sass
+pinia
+pinia-plugin-persistedstate
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 使用说明
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 克隆到本地
+2. 安装项目依赖`npm installl`
+3. 在 manifest.json 中修改 mp-weixin 的 appid
+4. 运行项目`run dev:mp-weixin`
+5. 在微信开发者工具中导入

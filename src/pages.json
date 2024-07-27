@@ -1,0 +1,76 @@
+{
+	//组件自动import引入规则
+	"easycom": { //该配置项修改后需要重启项目
+		"autoscan": true, //是否开启自动扫描
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+			// Xtx开头的组件从src/components文件夹中查找，规则如下配置
+			// "^Xtx(.*)": "@/components/Xtx$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom", //自定义，及隐藏原本的导航栏
+				"navigationBarTitleText": "拾酒忘忧铺"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "home"
+			}
+		},
+		{
+			"path": "pages/index/components/skeleton",
+			"style": {
+				"navigationBarTitleText": "骨架屏"
+			}
+		},
+		{
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationBarTitleText": "热门推荐页"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#27ba9b",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabs/home_default.png",
+				"selectedIconPath": "static/tabs/home_selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabs/user_default.png",
+				"selectedIconPath": "static/tabs/user_selected.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"enablePullDownRefresh": true, //下拉刷新按钮
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "标题",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
